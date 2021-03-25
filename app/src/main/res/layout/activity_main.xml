@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/valorConta"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:hint="@string/hintValorConta"
+        android:inputType="number" />
+
+    <SeekBar
+        android:id="@+id/porcentagemBar"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:max="30"
+        android:progress="15" />
+
+    <TextView
+        android:id="@+id/textoPorcentagem"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="15%"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/valorGorjeta"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:hint="@string/hintValorGorjeta"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/valorTotal"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+
+        android:hint="@string/hintValorTotal"
+         />
+</LinearLayout>
+
